@@ -1,13 +1,37 @@
 .App {
+  margin: 0 auto;
+  display: grid;
+  width: 1200px;
+  height: 1000px;
+  grid-template-areas: 
+  "head head head"
+  "nav main main";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 0.5fr 2.5fr;
   text-align: center;
-  
 }
 
-button {
-  background-color: red;
-  padding: 20px;
-  border-radius: 5%;
+header {
+  background-color: green;
 }
-button:hover {
-  background-color: rgb(17, 245, 28);
+header img {
+  height: 40px;
+  float: left;
+  border-radius: 50%;
+  margin: 10px;
+}
+aside {
+  background-color: red;
+}
+main {
+  background-color: #fff;
+}
+.head {
+  grid-area: head;
+}
+.nav {
+  grid-area: nav;
+}
+.main {
+  grid-area: main;
 }
