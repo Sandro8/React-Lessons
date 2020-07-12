@@ -10,22 +10,6 @@
   grid-template-columns: 0.5fr 2.5fr;
   text-align: center;
 }
-
-header {
-  background-color: green;
-}
-header img {
-  height: 40px;
-  float: left;
-  border-radius: 50%;
-  margin: 10px;
-}
-aside {
-  background-color: red;
-}
-main {
-  background-color: #fff;
-}
 .head {
   grid-area: head;
 }
