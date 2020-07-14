@@ -2,7 +2,6 @@
   margin: 0 auto;
   display: grid;
   width: 1200px;
-  height: 1000px;
   grid-template-areas: 
   "head head head"
   "nav main main";

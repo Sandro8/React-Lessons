@@ -1,0 +1,14 @@
+textarea {
+  width: 90%;
+  height: 150px;
+  margin: 10px;
+
+}
+main {
+    background-color: #fff;
+  }
+button {
+  padding: 20px;
+  background-color: yellow;
+  margin: 10px;
+}  
