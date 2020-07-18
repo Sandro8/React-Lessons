@@ -1,11 +1,10 @@
 .Post {
-    display: flex;
-    justify-content: space-evenly;
     border-top: 2px solid #000;
     padding: 10px;
     margin: 10px;
 }
 .Post img {
+    float: left;
     width: 50px;
     height: 50px;
 }

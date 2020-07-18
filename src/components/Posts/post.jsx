@@ -1,14 +1,14 @@
 import React from 'react';
 import P from './post.module.css';
 
-const Post = () => {
+const Post = (props) => {
     return (
         <div className={P.Post}>
             <div className={P.img}>
                 <img src="https://c7.hotpng.com/preview/232/131/798/iphone-emoji-apple-ios-11-emojis.jpg" alt="" />
             </div>
             <div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <p>{props.message}</p>
             </div>
         </div>
     );
