@@ -1,13 +1,16 @@
 import React from 'react';
-import i from './Sidebar.module.css';
+import './Sidebar.module.css';
+
 const Sidebar = () => {
     return (
         <aside className='nav'>
-            <div className={i.item}>Profile</div>
-            <div className={i.item}>News</div>
-            <div className={i.item}>Messages</div>
-            <div className={i.item}>Music</div>
-            <div className={i.item}>Foto</div>
+            <div>
+                <a href="/Profile">Profile</a><br />
+                <a href="News">News</a><br />
+                <a href="Messages">Messages</a><br />
+                <a href="Music">Music</a><br />
+                <a href="Foto">Foto</a><br />
+            </div>
         </aside>
     );
 }

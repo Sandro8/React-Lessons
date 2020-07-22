@@ -3,9 +3,9 @@ aside {
     color: white;
     padding: 10px;
   }
-.item {
-  text-decoration: underline;
+a {
+  color: #ffffff;
 }
-.item:hover {
-  text-transform: uppercase;
+a:hover {
+  color: darkorange;
 }
