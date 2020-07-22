@@ -1,0 +1,11 @@
+textarea {
+    width: 90%;
+    height: 150px;
+    margin: 10px;
+  
+}
+button {
+    padding: 20px;
+    background-color: rgb(25, 230, 93);
+    margin: 10px;
+}  
