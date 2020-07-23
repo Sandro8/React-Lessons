@@ -1,0 +1,6 @@
+.image {
+    height: 250px;
+}
+.image:hover {
+    height: 500px;
+}

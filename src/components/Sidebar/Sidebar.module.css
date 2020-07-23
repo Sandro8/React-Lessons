@@ -5,7 +5,8 @@ aside {
   }
 a {
   color: #ffffff;
+  text-decoration: none;
 }
-a:hover {
+a.active {
   color: darkorange;
 }

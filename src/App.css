@@ -2,6 +2,7 @@
   margin: 0 auto;
   display: grid;
   width: 1200px;
+  min-height: 800px;
   grid-template-areas: 
   "head head head"
   "nav main main";
@@ -17,4 +18,5 @@
 }
 .main {
   grid-area: main;
+  background-color: #ffffff;
 }
